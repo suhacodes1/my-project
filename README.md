@@ -59,38 +59,26 @@ To set up the project locally:
 
 Clone this repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/portfolio-website.git
 Navigate into the project directory:
 
-bash
-Copy
-Edit
+
 cd portfolio-website
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 # or
 yarn install
 Start the development server:
 
-bash
-Copy
-Edit
+
 npm run dev
 This will start the server at http://localhost:3000.
 
 License
 This project is licensed under the MIT License.
 
-vbnet
-Copy
-Edit
 
 ### Key Customizations:
 - I've replaced the generic information with details specific to your portfolio project (e.g., React, Next.js, TailwindCSS).

@@ -1,8 +1,5 @@
 "use client"
 import React from "react";
-import Image from "next/image"
-import weather from "../assets/weather.png"
-import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt,FaReact, FaJsSquare } from "react-icons/fa";
 
 

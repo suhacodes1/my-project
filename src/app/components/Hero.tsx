@@ -55,7 +55,7 @@ const Hero = () => {
         
 
             <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80"
-            > I am uni student in my 2nd year of my Software Engineering degree and am passionate about full-stack developing.</p>
+            > I am a uni student in my 2nd year of my Software Engineering degree and am passionate about full-stack developing.</p>
 
             <Image 
             src={profilepic}

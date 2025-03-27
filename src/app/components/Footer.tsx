@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin,FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -8,17 +8,10 @@ const Footer = () => {
         mx-auto border-t border-gray-700 pt-4 flex justify-between items-center'>
         <h1 className='text-2xl font-bold'> Suha Fathima</h1>
         <div className='flex space-x-6 mt-4'>
-            <a href="#" className="hover:text-gray-300">
+            <a href="https://www.linkedin.com/in/suha-fathima-a27419316/" className="hover:text-gray-300">
                 <FaLinkedin size={24} />
             </a>
 
-            <a href="#" className="hover:text-gray-300">
-                <FaTwitter size={24} />
-            </a>
-
-            <a href="#" className="hover:text-gray-300">
-                <FaInstagram size={24} />
-            </a>
         </div>
 
         </div>

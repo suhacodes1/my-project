@@ -7,9 +7,7 @@ To get started with the project locally, follow the steps below:
 ## Run the Development Server 💻
 First, run the development server:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
 # or
 yarn dev
@@ -17,6 +15,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
 Once the server is running, open http://localhost:3000 in your browser to see the result. 🌐
 
 You can start editing the page by modifying the respective components in the app/ directory. The page will automatically update as you edit the files. 🔄
@@ -64,29 +63,22 @@ To set up the project locally:
 
 Clone this repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/portfolio-website.git
 Navigate into the project directory:
 
-bash
-Copy
-Edit
+
 cd portfolio-website
 Install dependencies:
 
-bash
-Copy
-Edit
+
+
 npm install
-# or
+or
 yarn install
 Start the development server:
 
-bash
-Copy
-Edit
+
 npm run dev
 This will start the server at http://localhost:3000. 🌍
 

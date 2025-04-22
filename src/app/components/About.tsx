@@ -34,7 +34,7 @@ const About = () => {
                         <Image src={finance} alt="finance" className="w-auto h-[130px]"/>
                     <div className="flex flex-col mt-4">
                     <h2 className="text-2xl font-bold text-white/80">Projects</h2>
-                    <p className="text-lg text-white/70 mt-2">Made this website and a weather app.</p>
+                    <p className="text-lg text-white/70 mt-2">Made this website and a couple more projects(check out selected projects for more!).</p>
                     </div>
                     </div>
                 </div>

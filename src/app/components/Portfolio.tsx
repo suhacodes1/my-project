@@ -36,15 +36,16 @@ const projects = [
     },
 
     {
-        title: "FoodDel123 - Food Ordering UI",
-        desc: `Designed and developed a responsive frontend for a food delivery website using React.js. 
-        The interface allows users to browse a menu of items, add or remove items from the cart, and view their order summary.
-        Implemented reusable components for header, navbar, footer, food items, and more to ensure scalability and modular design.
-        Used React hooks like useState and useContext for state management and shared cart logic.
-        Applied conditional rendering for login popups and cart updates in real-time.
-        Integrated image assets and a sleek design using CSS to deliver a clean, modern UI.
-        Stored cart data and user actions locally to simulate real app behavior without backend integration.`,
-        devStack: "React.js, CSS",
+        title: "FoodDel123 - Food Ordering Full Stack Project",
+        desc: `Designed and developed a full-stack food delivery web application with a responsive user interface using React.js and a scalable backend using Node.js,
+         Express, and MongoDB. The frontend allows users to browse a dynamic food menu, 
+         add/remove items from their cart, and complete orders through an integrated Stripe payment flow.
+          Implemented reusable components (Header, Navbar, Footer, FoodItem, etc.) 
+          with React hooks (useState, useContext) for state and cart logic. The backend supports user authentication with JWT, 
+          real-time cart management, order placement, and order status updates. Admin functionality includes listing all orders 
+          and updating their delivery status. Used Mongoose for MongoDB operations and Stripe API for secure checkout.
+           Applied clean, modular CSS styling and real-time UI updates to enhance user experience.`,
+        devStack: "React.js, Node.js, Express, MongoDB, Stripe, CSS, JWT",
         link: "#", 
         git: "https://github.com/suhacodes1/foodie123",
         src: foodel

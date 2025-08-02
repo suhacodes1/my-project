@@ -9,10 +9,12 @@ const Contact = () => {
         text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8">
             <div className='flex justify-center items-center'>
                 <ul className= 'space-y-4'>
-                    <li className= 'flex items-center'>
-                        <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6'/>
-                        <p className='text-xl'> 0459 206 027</p>
-                    </li>
+{/* 
+<li className='flex items-center'>
+    <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6'/> 
+    <p className='text-xl'>0459 206 027</p>
+</li> 
+*/}
                     <li className= 'flex items-center'>
                         <Image src={mail} alt="mail" className='h-[110px] w-auto mr-6'/>
                         <p className='text-xl'> suha.fathima.au&#64;gmail.com</p>

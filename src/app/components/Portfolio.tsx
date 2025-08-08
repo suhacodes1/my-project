@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image"
 import weather from "../assets/weather.png"
 import todo from "../assets/todolist.png"
+import matcha from "../assets/matcha.png"
 import foodel from "../assets/homeREADME.png"
 import { motion } from "framer-motion";
 
@@ -49,6 +50,17 @@ const projects = [
         link: "#", 
         git: "https://github.com/suhacodes1/foodie123",
         src: foodel
+    },
+
+        {
+   title: "MatchaMate – Matcha Café Discovery Web App",
+  desc: `Created a sleek, responsive web app using Next.js and Chakra UI to help users discover Melbourne’s best matcha cafes. Features include a curated cafe list with filters, dynamic detail pages, interactive star ratings, and a comment system backed by a PostgreSQL database via Supabase. 
+
+Implemented frontend animations with Framer Motion, built reusable components (Navbar, CafeCard, StarRatingInput, etc.), and structured dynamic routes for individual cafes. Integrated Supabase for storing and retrieving user comments and ratings securely. The site is styled with a strawberry matcha aesthetic and deployed via Vercel.`,
+  devStack: "Next.js, TypeScript, Chakra UI, PostgreSQL, Supabase, Framer Motion, Vercel",
+        link: "https://matchamatee.vercel.app/", 
+        git: "https://github.com/suhacodes1/matchamate",
+        src: matcha
     },
     
 
